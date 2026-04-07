@@ -1,0 +1,10 @@
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# Fix for SPA routing (prevents 404 when clicking links or refreshing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

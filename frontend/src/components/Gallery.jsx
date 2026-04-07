@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 
 const photos = [
-  { id: 1, src: "/images/photo_0.jpg", caption: "Childhood memories" },
+  { id: 1, src: "/images/photo_tn.jpg", caption: "Childhood memories" },
   { id: 2, src: "/images/photo_2.jpg", caption: "With friends at university" },
-  { id: 3, src: "/images/photo28.jpg", caption: "Proud graduation moment" },
-  { id: 4, src: "/images/photo_15.jpg", caption: "Family time" },
-  { id: 5, src: "/images/photo_university.jpg", caption: "University days" },
+  { id: 3, src: "/images/photo_tt.jpg", caption: "Proud graduation moment" },
+  { id: 4, src: "/images/photo_20.jpg", caption: "Family time" },
+  { id: 5, src: "/images/photo_university-07.jpg", caption: "University days" },
   { id: 6, src: "/images/grad.jpg", caption: "Graduation day" },
   // Add more of your real photos here - just change the filename
 ];
