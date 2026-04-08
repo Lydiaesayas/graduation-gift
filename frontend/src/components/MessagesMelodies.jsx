@@ -7,7 +7,7 @@ const lovedOnes = [
     id: 'elsa',
     name: 'Elsa',
     role: 'Best Friend',
-    wish: "Tinbite, my dear friend! Watching you graduate fills my heart with so much pride...",
+    wish: "Tinbite, my dear friend! Watching you graduate fills my heart with so much pride. You've always been the smartest and kindest person I know. The future is yours — go shine bright! I will always be here cheering for you. Love you endlessly ❤️",
     songUrl: 'https://www.youtube.com/embed/CTw8P2GcMKE',
     color: 'from-pink-400 to-rose-500'
   },
@@ -15,7 +15,7 @@ const lovedOnes = [
     id: 'tsge',
     name: 'Tsge',
     role: 'Best Friend',
-    wish: "Congratulations Tinbite! You worked so hard...",
+    wish: "Congratulations Tinbite! You worked so hard for this moment. I'm so happy to have shared so many memories with you. May your next chapter be even more beautiful. Best friends forever!",
     songUrl: 'https://www.youtube.com/embed/cPQleLqeWsk',
     color: 'from-purple-400 to-violet-500'
   },
@@ -23,7 +23,7 @@ const lovedOnes = [
     id: 'kal',
     name: 'Kal',
     role: 'Best Friend',
-    wish: "Tinbite Esayas! From late night study sessions...",
+    wish: "Tinbite Esayas! From late night study sessions to endless laughs — you've made our journey unforgettable. This is just the beginning. I'm so proud of you! Keep being amazing.",
     songUrl: 'https://www.youtube.com/embed/_ATJll7Tj9w',
     color: 'from-blue-400 to-cyan-500'
   },
@@ -31,7 +31,7 @@ const lovedOnes = [
     id: 'lydia',
     name: 'Lydia',
     role: 'Your Loving Sister',
-    wish: "My beautiful sister Tinbite, I can't even put into words how proud I am of you today...",
+    wish: "My beautiful sister Tinbite, I can't even put into words how proud I am of you today. You've grown into such a strong, intelligent, and wonderful woman. No matter where life takes you, I'll always be your biggest supporter and your safe place. I love you more than anything in this world. Congratulations my dear! 🎓❤️",
     songUrl: 'https://www.youtube.com/embed/DlqU0p8PDy8',
     color: 'from-amber-400 to-orange-500'
   }
@@ -81,7 +81,7 @@ export default function MessagesMelodies() {
         </div>
       </div>
 
-      {/* Modal with YouTube */}
+      {/* Modal */}
       <AnimatePresence>
         {selectedPerson && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
@@ -92,7 +92,10 @@ export default function MessagesMelodies() {
               className="bg-white rounded-3xl max-w-2xl w-full overflow-hidden shadow-2xl"
             >
               <div className="p-10 relative">
-                <button onClick={closeModal} className="absolute top-6 right-6 text-gray-400 hover:text-gray-600 z-10">
+                <button 
+                  onClick={closeModal} 
+                  className="absolute top-6 right-6 text-gray-400 hover:text-gray-600 z-10"
+                >
                   <X size={36} />
                 </button>
 
@@ -111,7 +114,7 @@ export default function MessagesMelodies() {
                     width="100%"
                     height="100%"
                     src={`${selectedPerson.songUrl}?autoplay=1&modestbranding=1`}
-                    title={`${selectedPerson.name}'s song`}
+                    title={`${selectedPerson.name}'s song for Tinbite`}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
