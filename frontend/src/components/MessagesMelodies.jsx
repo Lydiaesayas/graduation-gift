@@ -8,7 +8,7 @@ const lovedOnes = [
     name: 'Elsa',
     role: 'Best Friend',
     wish: "Tinbite, my dear friend! Watching you graduate fills my heart with so much pride...",
-    songUrl: 'https://www.youtube.com/embed/tz_NxOF7RB4',
+    songUrl: 'https://www.youtube.com/watch?v=CTw8P2GcMKE&list=RDCTw8P2GcMKE&start_radio=1&pp=ygUaZW5nbGlzaCBtdXNpYyBmb3IgZnJpZW5kcyCgBwE%3D',
     color: 'from-pink-400 to-rose-500'
   },
   {
@@ -16,7 +16,7 @@ const lovedOnes = [
     name: 'Tsge',
     role: 'Best Friend',
     wish: "Congratulations Tinbite! You worked so hard...",
-    songUrl: 'https://www.youtube.com/embed/tz_NxOF7RB4',
+    songUrl: 'https://www.youtube.com/watch?v=cPQleLqeWsk&list=RDcPQleLqeWsk&start_radio=1&pp=ygUaZW5nbGlzaCBtdXNpYyBmb3IgZnJpZW5kcyCgBwE%3D',
     color: 'from-purple-400 to-violet-500'
   },
   {
@@ -24,7 +24,7 @@ const lovedOnes = [
     name: 'Kal',
     role: 'Best Friend',
     wish: "Tinbite Esayas! From late night study sessions...",
-    songUrl: 'https://www.youtube.com/embed/tz_NxOF7RB4',
+    songUrl: 'https://www.youtube.com/watch?v=_ATJll7Tj9w&list=RD_ATJll7Tj9w&start_radio=1&pp=ygUaZW5nbGlzaCBtdXNpYyBmb3IgZnJpZW5kcyCgBwE%3D',
     color: 'from-blue-400 to-cyan-500'
   },
   {
